@@ -1,0 +1,20 @@
+/* CSS Properties aplicable for all the html elements  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+/*.container{} targets all elements within this class
+the period (.) before the name states that you are aplying styles */
+
+.container{ /* Adding attributes (styles) to my class container link in the HTML file, background */
+
+    width: 100%;
+    min-height: 100vh; /*100vh; means the minimum height of the container should be 100% of the viewport height (the height of the visible part of the browser window). */
+    background: linear-gradient(135deg , #153677 , #4e085f);  
+    padding: 10px;
+
+} 
