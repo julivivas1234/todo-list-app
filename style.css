@@ -18,3 +18,25 @@ the period (.) before the name states that you are aplying styles */
     padding: 10px;
 
 } 
+
+.todo-app{ 
+    width: 100%; /* defines how wide the element is */
+    max-width: 540px ; /* limits width */
+    background: #fff; /* adds a white background to the element*/
+    margin: 100px auto 20px; /* posiotioning*/
+    padding: 40px 30px 70px; /* spacing inside the element*/
+    border-radius: 10px;  /*for the corners to be round*/
+}
+
+/* Focusing on the text and image */
+.todo-app h2{
+    color: #002765; /* heading to dark blue */
+    display: flex; /*Flex is a layout model ;treating the <img> tag and the text “To Do List” as flex items, which allows you to align them more easily.*/
+    align-items: center;  /*Alging the text and the image VERTICALLY along the center*/
+    margin-bottom: 20px; /*Creating space ,20px , below <h2> element , creating separation from the content below it*/
+}
+
+.todo-app img{ /*changing how the image is gonna look */
+    width: 30px; /*How wide the imaga is gonna look*/
+    margin-left: 10px; /*So that they can be space between Icon and text*/
+}
